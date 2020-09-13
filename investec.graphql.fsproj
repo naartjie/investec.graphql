@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="src/Investec.fs" />
+    <Compile Include="src/Schema.fs" />
+    <Compile Include="src/Server.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="3.3.3" />
+    <PackageReference Include="FSharp.Data.GraphQL.Server" Version="1.0.5" />
+    <PackageReference Include="FsHttp" Version="0.9.0" />
+    <PackageReference Include="Giraffe" Version="4.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+{
+    "data": {
+        "transactions": [
+            {
+                "accountId": "33755054867-480930735",
+                "type": "DEBIT",
+                "status": "POSTED",
+                "description": "TONKY TOWN",
+                "cardNumber": "",
+                "postingDate": "2020-09-06",
+                "valueDate": "2020-09-30",
+                "actionDate": "2020-09-08",
+                "transactionDate": "2020-09-05",
+                "amount": 77.65
+            },
+            {
+                "accountId": "33755054867-480930735",
+                "type": "DEBIT",
+                "status": "POSTED",
+                "description": "SEMENTE SURFBOARDS MAFRA PF",
+                "cardNumber": "402197xxxxxx4056",
+                "postingDate": "2020-09-06",
+                "valueDate": "2020-09-30",
+                "actionDate": "2020-09-08",
+                "transactionDate": "2020-09-05",
+                "amount": 2348.06
+            },
+            {
+                "accountId": "33755054867-480930735",
+                "type": "DEBIT",
+                "status": "POSTED",
+                "description": "COFFEEHUIS ATALAIA JUAN LAMPAS P",
+                "cardNumber": "402197xxxxxx4056",
+                "postingDate": "2020-09-06",
+                "valueDate": "2020-09-05",
+                "actionDate": "2020-09-08",
+                "transactionDate": "2020-09-05",
+                "amount": 4083.58
+            }
+        ]
+    },
+    "links": {
+        "self": "https://openapi.investec.com/za/pb/v1/accounts/33755054867-480930753/transactions"
+    },
+    "meta": {
+        "totalPages": 1
+    }
+}

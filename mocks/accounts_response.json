@@ -1,0 +1,47 @@
+{
+    "data": {
+        "accounts": [
+            {
+                "accountId": "33755054867-480930735",
+                "accountNumber": "10011190106",
+                "accountName": "Ms Tonky Tonk",
+                "referenceName": "Current Account",
+                "productName": "Private Bank Account"
+            },
+            {
+                "accountId": "3375505486710163762089560",
+                "accountNumber": "1100425394500",
+                "accountName": "Ms Tonky Tonk",
+                "referenceName": "Prime Saver",
+                "productName": "PrimeSaver"
+            },
+            {
+                "accountId": "33755054867-441232010",
+                "accountNumber": "1100425394540",
+                "accountName": "Ms Tonky Tonk",
+                "referenceName": "Cash Management Account",
+                "productName": "Cash Management Account"
+            },
+            {
+                "accountId": "3375505486710137232433824",
+                "accountNumber": "1100425394620",
+                "accountName": "Ms T Tonk",
+                "referenceName": "Ms T Tonk",
+                "productName": "SmartRate Plus Notice 32"
+            },
+            {
+                "accountId": "3375505486701089745450704",
+                "accountNumber": "1100425394621",
+                "accountName": "Ms T Tonk",
+                "referenceName": "Ms T Tonk",
+                "productName": "Top5 Optimiser 90"
+            }
+        ]
+    },
+    "links": {
+        "self": "https://openapi.investec.com/za/pb/v1/accounts"
+    },
+    "meta": {
+        "totalPages": 1
+    }
+}
