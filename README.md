@@ -2,6 +2,8 @@
 
 GraphQL API for [Investec Open Banking](https://developer.investec.com/programmable-banking/#open-api)
 
+Requirements: [.NET Core](https://dotnet.microsoft.com/download)
+
 Run the server locally
 ```sh
 export INVESTEC_CLIENT_ID=blahblahblah
