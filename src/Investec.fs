@@ -47,9 +47,6 @@ module Investec =
     let getToken () =
         async {
             match tokenState with
-            // let! token = login ()
-            // tokenState <- Cache token
-            // return token
             | Empty -> return raise (Exception("invalid state"))
             | WaitingOn token -> return! token
             | Cache token -> return token
@@ -62,10 +59,9 @@ module Investec =
             let! token = token
             tokenState <- Cache token
 
-            printfn "token=%s" token.Token
+            // refresh token 60s before it expires
+            do! Async.Sleep ((token.ExpiresIn - 60) * 1000)
 
-            // do! Async.Sleep ((token.ExpiresIn - 60) * 1000)
-            do! Async.Sleep (60 * 1000)
             return! loop () 
         }
         loop () |> Async.Start
