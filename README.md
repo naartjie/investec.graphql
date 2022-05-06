@@ -1,6 +1,6 @@
 # Investec Bank GraphQL
 
-GraphQL API for [Investec Open Banking](https://developer.investec.com/programmable-banking/#open-api)
+A GraphQL API interface for Investec's [Open Banking REST API](https://developer.investec.com/programmable-banking/#open-api).
 
 Requirements: [.NET Core](https://dotnet.microsoft.com/download)
 
