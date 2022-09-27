@@ -16,7 +16,7 @@
     <PackageReference Include="FSharp.Data.GraphQL.Server" Version="1.0.5" />
     <PackageReference Include="FsHttp" Version="0.9.0" />
     <PackageReference Include="Giraffe" Version="4.1.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
